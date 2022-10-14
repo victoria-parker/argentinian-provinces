@@ -1,7 +1,7 @@
 const express=require('express')
 const app=express()
 const cors=require('cors')
-app.use(cors)
+app.use(cors())
 
 const provinces=[{"name" : "Buenos Aires","capital" : "La Plata","yearOfFoundation":1820,"landArea":307571}, 
 {"name" : "Catamarca","capital" : "San Fernando del Valle de Catamarca","yearOfFoundation":1821,"landArea":102602}, 
